@@ -12,4 +12,5 @@ package extern;
 public class MetodePagament {
     String nom;
     
+    
 }
