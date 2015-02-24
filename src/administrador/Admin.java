@@ -11,11 +11,23 @@ package administrador;
  */
 public class Admin {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+  public void main() {
+  }
+
+  public void afegirEmpleat( ID) {
+  }
+
+  public void afegirClient( ID,  Nom,  Direcció,  Telefon,  Cognoms) {
+  }
+
+  public void afegirComanda( Client,  Empleat,  Ordenador,  Observacions,  DireccióEntrega,  ID,  DataComanda,  Preu) {
+  }
+
+  public void afegirOrdinador( model,  Observacions,  ID) {
+  }
+
+  public integer mostrarPendents() {
+  return null;
+  }
+
 }

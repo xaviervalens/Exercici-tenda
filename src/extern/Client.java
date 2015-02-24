@@ -9,6 +9,42 @@ package extern;
  *
  * @author Joan
  */
-public class Client {
-    
+import java.util.Vector;
+import String;
+
+class Client {
+
+  private String id;
+
+  private String nom;
+
+  private String direcció;
+
+  private int telefon;
+
+  private String cognoms;
+
+  private ArrayList<Comanda> comandes;
+
+  private ArrayList<MetodePagament> metodesDePagament;
+
+    public Vector  myComanda;
+    public Vector  myMetodePagament;
+
+  public void afegirComanda() {
+  }
+
+  public void afegirMetodePagament() {
+  }
+
+  public Comanda mostrarComandes() {
+  return null;
+  }
+
+  public void setters() {
+  }
+
+  public void getters() {
+  }
+
 }
